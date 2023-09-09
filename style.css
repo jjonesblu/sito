@@ -6,7 +6,7 @@ body, h1, h2, p, ul, li {
 
 /* Stile dell'header */
 header {
-    background-color: #f0f0f0;
+    background-color: var(--deep-blush); /* Cambiato lo sfondo in deep-blush */
     text-align: center;
     padding: 20px 0;
 }
@@ -28,6 +28,6 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: var(--jon); /* Colore del testo cambiato in jon */
     font-weight: bold;
 }

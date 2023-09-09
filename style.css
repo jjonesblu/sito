@@ -1,3 +1,12 @@
+/* Rimuovi il margine inferiore dall'header */
+header {
+    background-color: var(--deep-blush);
+    text-align: center;
+    padding: 40px 0;
+    margin-bottom: 0; /* Rimuove il margine inferiore */
+    height: auto; /* Imposta l'altezza dell'header in modo dinamico */
+}
+
 /* Reset CSS */
 body, h1, h2, p, ul, li {
     margin: 0;

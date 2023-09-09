@@ -21,10 +21,13 @@ header img {
 /* Stile del menu orizzontale */
 nav ul {
     list-style: none;
+    text-align: center; /* Centra il menu orizzontale */
+    margin-top: 20px; /* Aggiunge uno spazio sopra il menu */
 }
 
 nav ul li {
     display: inline;
+    margin: 0 10px; /* Unisce i margini da destra a sinistra */
 }
 
 nav ul li a {
@@ -32,49 +35,4 @@ nav ul li a {
     color: var(--jon); /* Colore del testo cambiato in jon */
     font-weight: bold;
     font-size: 18px; /* Aumentata la dimensione del testo */
-    margin-right: 30px; /* Aggiunto spazio tra gli elementi del menu (opzionale) */
-}
-
-/* Rimuovi il margine inferiore dall'header */
-header {
-    background-color: var(--deep-blush);
-    text-align: center;
-    padding: 40px 0;
-    margin-bottom: 0; /* Rimuove il margine inferiore */
-    height: auto; /* Imposta l'altezza dell'header in modo dinamico */
-}
-
-/* Reset CSS */
-body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
-/* Stile dell'header */
-header {
-    background-color: var(--deep-blush); /* Cambiato lo sfondo in deep-blush */
-    text-align: center;
-    padding: 40px 0; /* Aumentate le dimensioni del padding */
-}
-
-header img {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Stile del menu orizzontale */
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: var(--jon); /* Colore del testo cambiato in jon */
-    font-weight: bold;
-    font-size: 18px; /* Aumentata la dimensione del testo */
-    margin-right: 30px; /* Aggiunto spazio tra gli elementi del menu (opzionale) */
 }

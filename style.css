@@ -23,7 +23,6 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 30px; /* Aumentato lo spazio tra gli elementi del menu */
 }
 
 nav ul li a {
@@ -31,4 +30,5 @@ nav ul li a {
     color: var(--jon); /* Colore del testo cambiato in jon */
     font-weight: bold;
     font-size: 18px; /* Aumentata la dimensione del testo */
+    margin-right: 30px; /* Aggiunto spazio tra gli elementi del menu (opzionale) */
 }

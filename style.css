@@ -1,3 +1,40 @@
+/* Reset CSS */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Stile dell'header */
+header {
+    background-color: var(--deep-blush); /* Cambiato lo sfondo in deep-blush */
+    text-align: center;
+    padding: 0; /* Rimuovi il padding */
+    margin: 0; /* Rimuovi il margine */
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Rimuove lo spazio sotto l'immagine */
+}
+
+/* Stile del menu orizzontale */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--jon); /* Colore del testo cambiato in jon */
+    font-weight: bold;
+    font-size: 18px; /* Aumentata la dimensione del testo */
+    margin-right: 30px; /* Aggiunto spazio tra gli elementi del menu (opzionale) */
+}
+
 /* Rimuovi il margine inferiore dall'header */
 header {
     background-color: var(--deep-blush);
